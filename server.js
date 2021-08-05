@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
 });
 //fvfd
 app.listen(process.env.PORT, process.env.HOST);
+console.log("Ignore git ignore")
 console.log(`Running on http://${process.env.HOST}:${process.env.PORT}`);
 
 module.exports = app;
